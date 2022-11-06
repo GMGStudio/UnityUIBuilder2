@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIBuilder/UiAssets.uss?fileID=7433441132597879392&amp;guid=13fa352e5e17a4a2481e29ef247c5957&amp;type=3#UiAssets" />
+    <ui:VisualElement style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: 3%; width: 90%; height: 90%; border-top-left-radius: 89px; border-bottom-left-radius: 89px; border-top-right-radius: 89px; border-bottom-right-radius: 89px; background-color: rgba(207, 207, 207, 0.2); justify-content: center; align-items: center;">
+        <ui:Label text="Highscore" display-tooltip-when-elided="true" name="HighscoreTop" style="font-size: 104px; color: rgb(255, 252, 252);" />
+        <ui:ListView name="HighscoreList" virtualization-method="DynamicHeight" focusable="false" horizontal-scrolling="false" reorderable="false" show-bound-collection-size="false" style="height: 75%; width: 80%; flex-direction: row; font-size: 177px; color: rgb(253, 253, 253); justify-content: center; overflow: visible; margin-top: 12%;" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" class="button" style="height: auto; width: auto; justify-content: flex-start; margin-bottom: 3%;" />
+    </ui:VisualElement>
+</ui:UXML>

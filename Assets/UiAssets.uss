@@ -1,0 +1,89 @@
+.highscoreLabel {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    width: 45%;
+}
+
+.button {
+    background-color: rgb(41, 132, 185);
+    border-top-left-radius: 57px;
+    border-bottom-left-radius: 57px;
+    border-top-right-radius: 57px;
+    border-bottom-right-radius: 57px;
+    -unity-text-align: middle-center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 850%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+    height: 10%;
+    color: rgb(255, 237, 237);
+    -unity-font-style: bold;
+}
+
+.highscoreScore {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    width: 30%;
+    -unity-text-align: upper-right;
+}
+
+.highscoreGroup {
+    width: 100%;
+    align-items: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-basis: 0;
+}
+
+#Volume .unity-slider__input #unity-drag-container #unity-tracker {
+    font-size: 60px;
+    color: rgb(241, 255, 11);
+    border-left-color: rgb(248, 218, 11);
+    border-right-color: rgb(248, 218, 11);
+    border-top-color: rgb(248, 218, 11);
+    border-bottom-color: rgb(248, 218, 11);
+    border-left-width: 19px;
+    border-right-width: 19px;
+    border-top-width: 19px;
+    border-bottom-width: 19px;
+}
+
+#unity-drag-container {
+    justify-content: center;
+}
+
+#unity-checkmark {
+    left: 115px;
+    -unity-background-image-tint-color: rgb(248, 34, 34);
+    width: 90px;
+    height: 90px;
+}
+
+#Volume .unity-slider__input #unity-drag-container #unity-dragger {
+    padding-bottom: 17px;
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 36px;
+    border-left-width: 24px;
+    border-right-width: 24px;
+    border-top-width: 24px;
+    border-bottom-width: 24px;
+    border-left-color: rgb(18, 231, 255);
+    border-right-color: rgb(18, 231, 255);
+    border-top-color: rgb(18, 231, 255);
+    border-bottom-color: rgb(18, 231, 255);
+}
